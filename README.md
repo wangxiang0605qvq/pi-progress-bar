@@ -4,11 +4,18 @@ pi 扩展：任务进度条。只要有任务在执行，就在输入框上方�
 
 ## 安装
 
+### 方式一：作为 pi 包安装（推荐）
+
+```bash
+pi install git:github.com/wangxiang0605qvq/pi-progress-bar
+```
+
+### 方式二：手动复制
+
 复制 `progress-bar.ts` 到 pi 扩展目录：
 
 ```bash
 cp progress-bar.ts ~/.pi/agent/extensions/progress-bar.ts
-# Windows 默认: D:\pihub\.pi\agent\extensions\
 ```
 
 然后 `/reload`。
@@ -25,3 +32,7 @@ cp progress-bar.ts ~/.pi/agent/extensions/progress-bar.ts
 - 多个任务并行时显示当前任务并标注 `+N`。
 
 无命令、无配置项。
+
+## 版权
+
+著作权归作者所有，保留一切权利。详见 [LICENSE](LICENSE)。

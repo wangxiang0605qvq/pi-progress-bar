@@ -12,7 +12,7 @@
  *   - 两者都没有时按已运行时间平滑增长，最多到 99%，避免空闲时假报完成。
  *   - 任务结束瞬间补满到 100%，停留 0.5 秒后消失，让用户看到走完一条完整的条。
  *
- * 安装位置：~/.pi/agent/extensions/progress-bar.ts（本机实际目录 D:\pihub\.pi\agent\extensions\progress-bar.ts）
+ * 安装位置：~/.pi/agent/extensions/progress-bar.ts
  *
  * 实现说明：
  *   - 定时器不在工厂函数里启动（工厂可能在不启动会话的调用中执行），改为第一个任务

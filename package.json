@@ -1,0 +1,19 @@
+{
+  "name": "pi-progress-bar",
+  "version": "1.0.0",
+  "description": "pi 扩展：任务进度条。只要有任务在执行，就在输入框上方显示一条 0–100% 的进度条。",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent"
+  ],
+  "pi": {
+    "extensions": [
+      "./progress-bar.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
